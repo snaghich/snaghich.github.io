@@ -1,4 +1,4 @@
-# Human Interface System (Buttons Input & Output)
+# Human Interface System (Human Interface)
 
 ## Overview
 This project implements a human interface system using microcontrollers (ESP32) to process multiple button inputs and generate an output waveform (PWM). The system communicates using I2C, SPI, or UART and provides user feedback through an LED/OLED display.
