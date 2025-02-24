@@ -7,9 +7,9 @@ This project implements a human interface system using microcontrollers (ESP32 o
 ![Flowchart]([image](https://github.com/user-attachments/assets/64d827dd-09bd-41c4-914d-755dbe25dfc4))
 
 ## Documentation
-- [Block Diagram]([Block Diagram.md])
-- [Component Selection]([Component Selection.md])
-- [Schematics]([schematics.md])
+- docs/Block Diagram.md
+- docs/Component Selection.md
+- docs/Schematics.md
 
 ## Components Used
 
