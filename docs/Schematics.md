@@ -32,9 +32,7 @@ Image: HUMAN INTERFACE SCHEMATICS
 ## Power Supply
 - **5V DC Power Supply or Battery Module**
 
-## Schematic Code (for GitHub Repository)
-```yaml
-components:
+## Connection:
   - name: ESP32-WROOM-32
     type: Microcontroller
     datasheet: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
