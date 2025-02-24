@@ -1,5 +1,5 @@
 ---
-title: Block Diagram
+Block Diagram
 ---
 ![image](https://github.com/user-attachments/assets/64d827dd-09bd-41c4-914d-755dbe25dfc4)
 
