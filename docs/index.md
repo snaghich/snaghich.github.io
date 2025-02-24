@@ -7,9 +7,9 @@ This project implements a human interface system using microcontrollers (ESP32 o
 ![Flowchart]([image](https://github.com/user-attachments/assets/64d827dd-09bd-41c4-914d-755dbe25dfc4))
 
 ## Documentation
-- [Block Diagram]([blockdiagram.md](https://github.com/snaghich/snaghich.github.io/blob/main/docs/Block%20Diagram.md))
-- [Component Selection]([component%20selection.md](https://github.com/snaghich/snaghich.github.io/blob/main/docs/Component%20Selection.md))
-- [Schematics]([schematics.md](https://github.com/snaghich/snaghich.github.io/blob/main/docs/Schematics.md))
+- [Block Diagram]([Block Diagram.md])
+- [Component Selection]([Component Selection.md])
+- [Schematics]([schematics.md])
 
 ## Components Used
 
