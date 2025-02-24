@@ -76,14 +76,6 @@ Image: HUMAN INTERFACE SCHEMATICS
       - GPIO21: SDA (I2C for OLED)
       - GPIO22: SCL (I2C for OLED)
 
-  - name: PIC16F877A
-    type: Microcontroller
-    datasheet: http://ww1.microchip.com/downloads/en/DeviceDoc/30292c.pdf
-    pins:
-      - RA0-RA7: Digital Inputs
-      - RC3: SCL (I2C)
-      - RC4: SDA (I2C)
-
   - name: MCP4725
     type: DAC
     datasheet: https://cdn.sparkfun.com/datasheets/BreakoutBoards/MCP4725.pdf
