@@ -12,13 +12,13 @@
       
       
       
-        <link rel="canonical" href="https://embedded-systems-design.github.io/template_report/charts/">
+        <link rel="canonical" href="https://embedded-systems-design.github.io/template_report/Component%20Selection/">
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../Block%20Diagram/">
       
       
-        <link rel="next" href="../second-page/">
+        <link rel="next" href="../Schematics/">
       
       
       <link rel="icon" href="../static/logo.png">
@@ -29,7 +29,7 @@
 
     
       
-        <title>Charts - EGR314 Report Template</title>
+        <title>Component Selection for ESP32-WROOM-32 & PIC16F877A - EGR314 Report Template</title>
       
     
     
@@ -92,6 +92,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#component-selection-for-esp32-wroom-32-pic16f877a" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -123,7 +128,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Charts
+              Component Selection for ESP32-WROOM-32 &amp; PIC16F877A
             
           </span>
         </div>
@@ -202,7 +207,24 @@
   
     
   
-  Welcome
+  Human Interface System
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Block%20Diagram/" class="md-tabs__link">
+        
+  
+    
+  
+  Block Diagram
 
       </a>
     </li>
@@ -221,7 +243,7 @@
   
     
   
-  Charts
+  Component Selection for ESP32-WROOM-32 &amp; PIC16F877A
 
       </a>
     </li>
@@ -233,12 +255,12 @@
   
   
     <li class="md-tabs__item">
-      <a href="../second-page/" class="md-tabs__link">
+      <a href="../Schematics/" class="md-tabs__link">
         
   
     
   
-  Second Page
+  Schematics
 
       </a>
     </li>
@@ -325,7 +347,26 @@
         
   
   <span class="md-ellipsis">
-    Welcome
+    Human Interface System
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Block%20Diagram/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Block Diagram
   </span>
   
 
@@ -346,16 +387,104 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Component Selection for ESP32-WROOM-32 &amp; PIC16F877A
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Charts
+    Component Selection for ESP32-WROOM-32 &amp; PIC16F877A
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-microcontroller-selection" class="md-nav__link">
+    1. Microcontroller Selection
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-buttons" class="md-nav__link">
+    2. Buttons
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-resistors-capacitors" class="md-nav__link">
+    3. Resistors &amp; Capacitors
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-dac-digital-to-analog-converter" class="md-nav__link">
+    4. DAC (Digital to Analog Converter)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-voltage-regulator" class="md-nav__link">
+    5. Voltage Regulator
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-oscillator-for-pic-microcontroller" class="md-nav__link">
+    6. Oscillator (For PIC Microcontroller)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-display-optional" class="md-nav__link">
+    7. Display (Optional)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-power-supply" class="md-nav__link">
+    8. Power Supply
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -367,11 +496,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../second-page/" class="md-nav__link">
+      <a href="../Schematics/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Second Page
+    Schematics
   </span>
   
 
@@ -440,6 +569,72 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-microcontroller-selection" class="md-nav__link">
+    1. Microcontroller Selection
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-buttons" class="md-nav__link">
+    2. Buttons
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-resistors-capacitors" class="md-nav__link">
+    3. Resistors &amp; Capacitors
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-dac-digital-to-analog-converter" class="md-nav__link">
+    4. DAC (Digital to Analog Converter)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-voltage-regulator" class="md-nav__link">
+    5. Voltage Regulator
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-oscillator-for-pic-microcontroller" class="md-nav__link">
+    6. Oscillator (For PIC Microcontroller)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-display-optional" class="md-nav__link">
+    7. Display (Optional)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-power-supply" class="md-nav__link">
+    8. Power Supply
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -454,7 +649,7 @@
                   
 
   
-    <a href="https://github.com/embedded-systems-design/template_report/edit/main/docs/charts.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/embedded-systems-design/template_report/edit/main/docs/Component Selection.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -462,35 +657,238 @@
   
 
 
-  <h1>Charts</h1>
-
-<pre class="mermaid"><code>graph LR
-  A[Start] --&gt; B{Error?};
-  B --&gt;|Yes| C[Hmm...];
-  C --&gt; D[Debug];
-  D --&gt; B;
-  B ----&gt;|No| E[Yay!];</code></pre>
-<pre class="mermaid"><code>sequenceDiagram
-  autonumber
-  Alice-&gt;&gt;John: Hello John, how are you?
-  loop Healthcheck
-      John-&gt;&gt;John: Fight against hypochondria
-  end
-  Note right of John: Rational thoughts!
-  John--&gt;&gt;Alice: Great!
-  John-&gt;&gt;Bob: How about you?
-  Bob--&gt;&gt;John: Jolly good!</code></pre>
-<pre class="mermaid"><code>stateDiagram-v2
-  state fork_state &lt;&lt;fork&gt;&gt;
-    [*] --&gt; fork_state
-    fork_state --&gt; State2
-    fork_state --&gt; State3
-
-    state join_state &lt;&lt;join&gt;&gt;
-    State2 --&gt; join_state
-    State3 --&gt; join_state
-    join_state --&gt; State4
-    State4 --&gt; [*]</code></pre>
+<h1 id="component-selection-for-esp32-wroom-32-pic16f877a">Component Selection for ESP32-WROOM-32 &amp; PIC16F877A</h1>
+<h2 id="1-microcontroller-selection">1. <strong>Microcontroller Selection</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Image</th>
+<th>Cost</th>
+<th>Datasheet</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ESP32-WROOM-32</strong></td>
+<td><a class="glightbox" href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/ESP-WROOM-32.jpg/200px-ESP-WROOM-32.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="ESP32" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/ESP-WROOM-32.jpg/200px-ESP-WROOM-32.jpg" /></a></td>
+<td><span class="arithmatex">\(5-\)</span>8</td>
+<td><a href="https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf">Datasheet</a></td>
+<td>Built-in WiFi &amp; Bluetooth, Dual-core, DAC &amp; ADC, Low power</td>
+<td>Higher complexity, 3.3V logic level</td>
+</tr>
+<tr>
+<td><strong>PIC16F877A</strong></td>
+<td><a class="glightbox" href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/PIC16F877A.jpg/200px-PIC16F877A.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="PIC16F877A" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/PIC16F877A.jpg/200px-PIC16F877A.jpg" /></a></td>
+<td><span class="arithmatex">\(4-\)</span>6</td>
+<td><a href="https://ww1.microchip.com/downloads/en/DeviceDoc/39582b.pdf">Datasheet</a></td>
+<td>Reliable, Well-documented, Lower power</td>
+<td>No built-in WiFi/Bluetooth, Less computing power</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="2-buttons">2. <strong>Buttons</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Image</th>
+<th>Cost</th>
+<th>Datasheet</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Omron B3F-4055</strong></td>
+<td><a class="glightbox" href="https://www.omron.com/ecb/products/images/btn_b3f-e_1.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="B3F-4055" src="https://www.omron.com/ecb/products/images/btn_b3f-e_1.jpg" /></a></td>
+<td>$0.20</td>
+<td><a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf">Datasheet</a></td>
+<td>High durability, Compact</td>
+<td>Mechanical wear over time</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="3-resistors-capacitors">3. <strong>Resistors &amp; Capacitors</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Image</th>
+<th>Cost</th>
+<th>Datasheet</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>10kΩ Resistor</strong></td>
+<td><a class="glightbox" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Resistor.jpg/200px-Resistor.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="10k Resistor" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Resistor.jpg/200px-Resistor.jpg" /></a></td>
+<td>$0.05</td>
+<td><a href="https://www.vishay.com/docs/28722/crcw.pdf">Datasheet</a></td>
+<td>Ideal for pull-up/pull-down</td>
+<td>Fixed value</td>
+</tr>
+<tr>
+<td><strong>100Ω Resistor</strong></td>
+<td>Same as above</td>
+<td>$0.05</td>
+<td>Same as above</td>
+<td>Protection from overcurrent</td>
+<td>May limit signal strength</td>
+</tr>
+<tr>
+<td><strong>0.1µF Capacitor</strong></td>
+<td><a class="glightbox" href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Ceramic_Capacitors.jpg/200px-Ceramic_Capacitors.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Capacitor" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Ceramic_Capacitors.jpg/200px-Ceramic_Capacitors.jpg" /></a></td>
+<td>$0.10</td>
+<td><a href="https://www.murata.com/en-us/products/capacitor/mlcc">Datasheet</a></td>
+<td>Decoupling, Noise reduction</td>
+<td>Can degrade over time</td>
+</tr>
+<tr>
+<td><strong>10µF Capacitor</strong></td>
+<td>Same as above</td>
+<td>$0.15</td>
+<td>Same as above</td>
+<td>Stable power delivery</td>
+<td>Bulkier than 0.1µF</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="4-dac-digital-to-analog-converter">4. <strong>DAC (Digital to Analog Converter)</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Image</th>
+<th>Cost</th>
+<th>Datasheet</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>MCP4725</strong></td>
+<td><a class="glightbox" href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/MCP4725_Breakout.jpg/200px-MCP4725_Breakout.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="MCP4725" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/MCP4725_Breakout.jpg/200px-MCP4725_Breakout.jpg" /></a></td>
+<td>$2</td>
+<td><a href="https://www.microchip.com/en-us/product/MCP4725">Datasheet</a></td>
+<td>12-bit accuracy, I2C interface</td>
+<td>Limited output voltage range</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="5-voltage-regulator">5. <strong>Voltage Regulator</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Image</th>
+<th>Cost</th>
+<th>Datasheet</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>AMS1117-3.3V</strong></td>
+<td><a class="glightbox" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/AMS1117_Regulator.jpg/200px-AMS1117_Regulator.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="AMS1117" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/AMS1117_Regulator.jpg/200px-AMS1117_Regulator.jpg" /></a></td>
+<td>$0.50</td>
+<td><a href="https://www.advanced-monolithic.com/pdf/ds1117.pdf">Datasheet</a></td>
+<td>3.3V stable output, Easy to use</td>
+<td>Low efficiency</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="6-oscillator-for-pic-microcontroller">6. <strong>Oscillator (For PIC Microcontroller)</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Image</th>
+<th>Cost</th>
+<th>Datasheet</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>16MHz Crystal</strong></td>
+<td><a class="glightbox" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Quartz_Crystal.jpg/200px-Quartz_Crystal.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Crystal Oscillator" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Quartz_Crystal.jpg/200px-Quartz_Crystal.jpg" /></a></td>
+<td>$0.50</td>
+<td><a href="https://www.microchip.com/wwwproducts/en/PIC16F877A">Datasheet</a></td>
+<td>Stable frequency, Needed for PIC</td>
+<td>External components required</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="7-display-optional">7. <strong>Display (Optional)</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Image</th>
+<th>Cost</th>
+<th>Datasheet</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SSD1306 OLED (I2C)</strong></td>
+<td><a class="glightbox" href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/SSD1306_Display.jpg/200px-SSD1306_Display.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="SSD1306" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/SSD1306_Display.jpg/200px-SSD1306_Display.jpg" /></a></td>
+<td>$5</td>
+<td><a href="https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf">Datasheet</a></td>
+<td>Low power, High contrast</td>
+<td>Small screen size</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="8-power-supply">8. <strong>Power Supply</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Image</th>
+<th>Cost</th>
+<th>Datasheet</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>5V DC Adapter</strong></td>
+<td><a class="glightbox" href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/5V_Power_Adapter.jpg/200px-5V_Power_Adapter.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="5V Adapter" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/5V_Power_Adapter.jpg/200px-5V_Power_Adapter.jpg" /></a></td>
+<td>$5</td>
+<td>-</td>
+<td>Reliable, Easy to find</td>
+<td>Needs wall socket</td>
+</tr>
+<tr>
+<td><strong>Battery Module</strong></td>
+<td><a class="glightbox" href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Lithium_18650_Battery.jpg/200px-Lithium_18650_Battery.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Battery" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Lithium_18650_Battery.jpg/200px-Lithium_18650_Battery.jpg" /></a></td>
+<td>$10</td>
+<td>-</td>
+<td>Portable</td>
+<td>Requires charging circuit</td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -518,7 +916,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Welcome" rel="prev">
+          <a href="../Block%20Diagram/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Block Diagram" rel="prev">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -528,20 +926,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Welcome
+                Block Diagram
               </div>
             </div>
           </a>
         
         
           
-          <a href="../second-page/" class="md-footer__link md-footer__link--next" aria-label="Next: Second Page" rel="next">
+          <a href="../Schematics/" class="md-footer__link md-footer__link--next" aria-label="Next: Schematics" rel="next">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Second Page
+                Schematics
               </div>
             </div>
             <div class="md-footer__button md-icon">
