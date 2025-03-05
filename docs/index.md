@@ -19,13 +19,11 @@ Block Diagram
 | Component | Model | Purpose | Datasheet | Cost | Pros | Cons |
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | **Microcontroller** | ESP32-WROOM-32 | Wi-Fi & Bluetooth, multiple GPIOs, built-in DAC & PWM | [Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf) | $5-8 | Powerful, supports multiple interfaces, built-in DAC | Higher power consumption |
-| **Microcontroller** | PIC16F877A | If PIC is required, supports I2C, SPI, UART | [Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/30292c.pdf) | $4-6 | Low power, widely used in industry | Limited processing power |
 | **Button Module** | TS02-66-70-BK-100-LCR-D | Multiple inputs | - | $1-3 | Simple, reliable | Requires debounce circuit |
 | **Resistors** | 10kΩ | Pull-up for button inputs | - | <$1 | Prevents floating states | Required for stable operation |
 | **Capacitors** | 0.1µF & 10µF | Decoupling & noise reduction | - | <$1 | Improves stability | Needs proper placement |
 | **DAC (if needed)** | MCP4725 | 12-bit I2C DAC for waveform output | [Datasheet](https://cdn.sparkfun.com/datasheets/BreakoutBoards/MCP4725.pdf) | $3-5 | Precise, I2C controlled | Extra component needed |
 | **Voltage Regulator** | AMS1117-3.3V | For ESP32 power regulation | [Datasheet](https://www.sparkfun.com/datasheets/Components/LD1117V33.pdf) | <$1 | Stable 3.3V output | Needs heat dissipation |
-| **Oscillator (for PIC if required)** | 16MHz Crystal with 22pF Capacitors | Provides clock for PIC | - | <$1 | Accurate timing | Requires external components |
 | **Display (optional)** | SSD1306 OLED | I2C-based for visualization | [Datasheet](https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf) | $5-10 | Low power, clear display | Small size |
 | **Power Supply** | 5V DC Power Supply or Battery | Provides power to circuit | - | Varies | Portable, reliable | Needs regulation |
 
