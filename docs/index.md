@@ -14,6 +14,13 @@ Block Diagram
 3. **Communication:** Data is transmitted using I2C protocols for external interaction.
 4. **Output Waveform Generation:** The system outputs a PWM signal.
 5. **User Experience:** The display module (SSD1306 OLED/LEDs) provides real-time feedback on button presses and output states.
+
+## API Link
+
+- [View API Page](./api.md)
+- [Download API PDF](./HIM_API_EGR314.pdf)
+- [Download Firmware (.zip)](./HIM_Message_Protocol_EGR314.zip)
+
 ## Components Used
 
 | Component | Model | Purpose | Datasheet | Cost | Pros | Cons |
@@ -99,3 +106,6 @@ connections:
   - from: GPIO22 (ESP32)
     to: SCL (MCP4725, OLED)
 ```
+
+
+
