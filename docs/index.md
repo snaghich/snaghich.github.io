@@ -17,7 +17,7 @@ Block Diagram
 
 ## API Link
 
-- [View API Page](./api.md)
+- [View API Page](api.md)
 - [Download API PDF](./HIM_API_EGR314.pdf)
 - [Download Firmware (.zip)](./HIM_Message_Protocol_EGR314.zip)
 
