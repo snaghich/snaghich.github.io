@@ -12,14 +12,16 @@
       
       
       
-        <link rel="canonical" href="https://embedded-systems-design.github.io/template_report/">
+        <link rel="canonical" href="https://embedded-systems-design.github.io/template_report/API/">
       
       
+        <link rel="prev" href="..">
       
-        <link rel="next" href="API/">
+      
+        <link rel="next" href="../Block%20Diagram/">
       
       
-      <link rel="icon" href="static/logo.png">
+      <link rel="icon" href="../static/logo.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.4.0">
             
 
@@ -27,14 +29,14 @@
 
     
       
-        <title>EGR314 Report Template</title>
+        <title>API – Human Interface Module (HIM) - EGR314 Report Template</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.9f615399.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.9f615399.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.649f08f9.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.649f08f9.min.css">
       
       
 
@@ -53,9 +55,9 @@
       
     
     
-      <link rel="stylesheet" href="stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -64,7 +66,7 @@
     
 
 
-   <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
     .gslide-desc { color: #666; user-select: text; }
@@ -73,7 +75,7 @@
     .gdesc-inner { font-size: 0.75rem; }
     body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
     body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="assets/javascripts/glightbox.min.js"></script></head>
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -91,7 +93,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#human-interface-system" class="md-skip">
+        <a href="#api-human-interface-module-him" class="md-skip">
           Skip to content
         </a>
       
@@ -107,9 +109,9 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="EGR314 Report Template" class="md-header__button md-logo" aria-label="EGR314 Report Template" data-md-component="logo">
+    <a href=".." title="EGR314 Report Template" class="md-header__button md-logo" aria-label="EGR314 Report Template" data-md-component="logo">
       
-  <img src="static/logo.svg" alt="logo">
+  <img src="../static/logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -126,7 +128,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Human Interface System
+              API – Human Interface Module (HIM)
             
           </span>
         </div>
@@ -198,11 +200,9 @@
         
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
         
   
     
@@ -217,9 +217,11 @@
         
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="API/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
     
@@ -236,7 +238,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="Block%20Diagram/" class="md-tabs__link">
+      <a href="../Block%20Diagram/" class="md-tabs__link">
         
   
     
@@ -253,7 +255,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="Component%20Selection/" class="md-tabs__link">
+      <a href="../Component%20Selection/" class="md-tabs__link">
         
   
     
@@ -270,7 +272,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="Schematics/" class="md-tabs__link">
+      <a href="../Schematics/" class="md-tabs__link">
         
   
     
@@ -289,7 +291,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="subfolder/" class="md-tabs__link">
+        <a href="../subfolder/" class="md-tabs__link">
           
   
     
@@ -330,9 +332,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="EGR314 Report Template" class="md-nav__button md-logo" aria-label="EGR314 Report Template" data-md-component="logo">
+    <a href=".." title="EGR314 Report Template" class="md-nav__button md-logo" aria-label="EGR314 Report Template" data-md-component="logo">
       
-  <img src="static/logo.svg" alt="logo">
+  <img src="../static/logo.svg" alt="logo">
 
     </a>
     EGR314 Report Template
@@ -356,6 +358,25 @@
       
   
   
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Human Interface System
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -371,18 +392,18 @@
           
   
   <span class="md-ellipsis">
-    Human Interface System
+    API – Human Interface Module (HIM)
   </span>
   
 
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="." class="md-nav__link md-nav__link--active">
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Human Interface System
+    API – Human Interface Module (HIM)
   </span>
   
 
@@ -404,37 +425,50 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    Overview
+  <a href="#message-type-10-button-press-him-microcontroller-or-motor" class="md-nav__link">
+    ✅ Message Type 10 – Button Press (HIM → Microcontroller or Motor)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#block-diagram" class="md-nav__link">
-    Block Diagram
+  <a href="#message-type-20-display-update-microcontroller-him" class="md-nav__link">
+    ✅ Message Type 20 – Display Update (Microcontroller → HIM)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#functionality" class="md-nav__link">
-    Functionality
+  <a href="#message-type-30-motor-command-him-motor-driver" class="md-nav__link">
+    ✅ Message Type 30 – Motor Command (HIM → Motor Driver)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#components-used" class="md-nav__link">
-    Components Used
+  <a href="#message-type-40-temperature-request-him-microcontroller" class="md-nav__link">
+    ✅ Message Type 40 – Temperature Request (HIM → Microcontroller)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#schematics" class="md-nav__link">
-    Schematics
+  <a href="#message-type-41-temperature-reading-microcontroller-him" class="md-nav__link">
+    ✅ Message Type 41 – Temperature Reading (Microcontroller → HIM)
   </a>
+  
+    <nav class="md-nav" aria-label="✅ Message Type 41 – Temperature Reading (Microcontroller → HIM)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    ✅ Notes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -452,26 +486,7 @@
   
   
     <li class="md-nav__item">
-      <a href="API/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    API – Human Interface Module (HIM)
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="Block%20Diagram/" class="md-nav__link">
+      <a href="../Block%20Diagram/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -490,7 +505,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Component%20Selection/" class="md-nav__link">
+      <a href="../Component%20Selection/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -509,7 +524,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Schematics/" class="md-nav__link">
+      <a href="../Schematics/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -546,7 +561,7 @@
         
   
   
-    <a href="subfolder/" class="md-nav__link">
+    <a href="../subfolder/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -592,37 +607,50 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    Overview
+  <a href="#message-type-10-button-press-him-microcontroller-or-motor" class="md-nav__link">
+    ✅ Message Type 10 – Button Press (HIM → Microcontroller or Motor)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#block-diagram" class="md-nav__link">
-    Block Diagram
+  <a href="#message-type-20-display-update-microcontroller-him" class="md-nav__link">
+    ✅ Message Type 20 – Display Update (Microcontroller → HIM)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#functionality" class="md-nav__link">
-    Functionality
+  <a href="#message-type-30-motor-command-him-motor-driver" class="md-nav__link">
+    ✅ Message Type 30 – Motor Command (HIM → Motor Driver)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#components-used" class="md-nav__link">
-    Components Used
+  <a href="#message-type-40-temperature-request-him-microcontroller" class="md-nav__link">
+    ✅ Message Type 40 – Temperature Request (HIM → Microcontroller)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#schematics" class="md-nav__link">
-    Schematics
+  <a href="#message-type-41-temperature-reading-microcontroller-him" class="md-nav__link">
+    ✅ Message Type 41 – Temperature Reading (Microcontroller → HIM)
   </a>
+  
+    <nav class="md-nav" aria-label="✅ Message Type 41 – Temperature Reading (Microcontroller → HIM)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    ✅ Notes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -641,7 +669,7 @@
                   
 
   
-    <a href="https://github.com/embedded-systems-design/template_report/edit/main/docs/index.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/embedded-systems-design/template_report/edit/main/docs/API.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -649,196 +677,239 @@
   
 
 
-<h1 id="human-interface-system">Human Interface System</h1>
-<h2 id="overview">Overview</h2>
-<p>This project implements a human interface system using microcontrollers (ESP32) to process multiple button inputs and generate an output waveform (PWM). The system communicates using I2C, SPI, or UART and provides user feedback through an LED/OLED display.</p>
+<h1 id="api-human-interface-module-him">API – Human Interface Module (HIM)</h1>
+<p><strong>Subsystem Role:</strong><br />
+The Human Interface Module (HIM) is responsible for handling user input via tactile buttons, providing system feedback through an OLED screen and analog waveform output, and communicating over UART with the upstream microcontroller (ESP32 for MQTT) and downstream subsystems (Motor, Microphone). Messages are formatted according to the class protocol and embedded between bytes 4–61 of the packet.</p>
+<p><strong>Microcontroller:</strong><br />
+ESP32-WROOM-S3 (used in schematic)</p>
+<p><strong>Inputs:</strong>
+- 3 tactile pushbuttons (TS04-86-50-BK series) for user control
+- Button input triggers messages like motor control, mode switching, or temp request which inturn, gives out a waveform like structure. </p>
+<p><strong>Outputs:</strong>
+- OLED display via I2C (feedback, speed, temperature, etc.)
+- MCP4725 DAC via I2C (analog waveform output)
+- LED debug (message activity)</p>
 <hr />
-<h2 id="block-diagram">Block Diagram</h2>
-<p><a class="glightbox" href="https://github.com/user-attachments/assets/64d827dd-09bd-41c4-914d-755dbe25dfc4" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/64d827dd-09bd-41c4-914d-755dbe25dfc4" /></a></p>
-<h2 id="functionality">Functionality</h2>
-<ol>
-<li><strong>Button Module Input:</strong> Detects multiple button presses using a microcontroller.</li>
-<li><strong>Microcontroller Processing:</strong> The ESP32/PIC reads button inputs and processes them accordingly.</li>
-<li><strong>Communication:</strong> Data is transmitted using I2C protocols for external interaction.</li>
-<li><strong>Output Waveform Generation:</strong> The system outputs a PWM signal.</li>
-<li><strong>User Experience:</strong> The display module (SSD1306 OLED/LEDs) provides real-time feedback on button presses and output states.</li>
-</ol>
-<h2 id="components-used">Components Used</h2>
+<h2 id="message-type-10-button-press-him-microcontroller-or-motor">✅ Message Type 10 – Button Press (HIM → Microcontroller or Motor)</h2>
+<p>Button press events are detected on digital GPIO pins and trigger this message to notify the system of user interaction.</p>
 <table>
 <thead>
 <tr>
-<th>Component</th>
-<th>Model</th>
-<th>Purpose</th>
-<th>Datasheet</th>
-<th>Cost</th>
-<th>Pros</th>
-<th>Cons</th>
+<th>Byte #</th>
+<th>Variable Name</th>
+<th>Data Type</th>
+<th>Min</th>
+<th>Max</th>
+<th>Example</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Microcontroller</strong></td>
-<td>ESP32-WROOM-32</td>
-<td>Wi-Fi &amp; Bluetooth, multiple GPIOs, built-in DAC &amp; PWM</td>
-<td><a href="https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf">Datasheet</a></td>
-<td>$5-8</td>
-<td>Powerful, supports multiple interfaces, built-in DAC</td>
-<td>Higher power consumption</td>
+<td>1</td>
+<td>message_type</td>
+<td><code>uint8_t</code></td>
+<td>10</td>
+<td>10</td>
+<td>10</td>
 </tr>
 <tr>
-<td><strong>Button Module</strong></td>
-<td>TS02-66-70-BK-100-LCR-D</td>
-<td>Multiple inputs</td>
-<td>-</td>
-<td>$1-3</td>
-<td>Simple, reliable</td>
-<td>Requires debounce circuit</td>
+<td>2</td>
+<td>button_id</td>
+<td><code>uint8_t</code></td>
+<td>1</td>
+<td>3</td>
+<td>2</td>
 </tr>
 <tr>
-<td><strong>Resistors</strong></td>
-<td>10kΩ</td>
-<td>Pull-up for button inputs</td>
-<td>-</td>
-<td>&lt;$1</td>
-<td>Prevents floating states</td>
-<td>Required for stable operation</td>
-</tr>
-<tr>
-<td><strong>Capacitors</strong></td>
-<td>0.1µF &amp; 10µF</td>
-<td>Decoupling &amp; noise reduction</td>
-<td>-</td>
-<td>&lt;$1</td>
-<td>Improves stability</td>
-<td>Needs proper placement</td>
-</tr>
-<tr>
-<td><strong>DAC (if needed)</strong></td>
-<td>MCP4725</td>
-<td>12-bit I2C DAC for waveform output</td>
-<td><a href="https://cdn.sparkfun.com/datasheets/BreakoutBoards/MCP4725.pdf">Datasheet</a></td>
-<td>$3-5</td>
-<td>Precise, I2C controlled</td>
-<td>Extra component needed</td>
-</tr>
-<tr>
-<td><strong>Voltage Regulator</strong></td>
-<td>AMS1117-3.3V</td>
-<td>For ESP32 power regulation</td>
-<td><a href="https://www.sparkfun.com/datasheets/Components/LD1117V33.pdf">Datasheet</a></td>
-<td>&lt;$1</td>
-<td>Stable 3.3V output</td>
-<td>Needs heat dissipation</td>
-</tr>
-<tr>
-<td><strong>Display (optional)</strong></td>
-<td>SSD1306 OLED</td>
-<td>I2C-based for visualization</td>
-<td><a href="https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf">Datasheet</a></td>
-<td>$5-10</td>
-<td>Low power, clear display</td>
-<td>Small size</td>
-</tr>
-<tr>
-<td><strong>Power Supply</strong></td>
-<td>5V DC Power Supply or Battery</td>
-<td>Provides power to circuit</td>
-<td>-</td>
-<td>Varies</td>
-<td>Portable, reliable</td>
-<td>Needs regulation</td>
+<td>3</td>
+<td>action_code</td>
+<td><code>uint8_t</code></td>
+<td>0</td>
+<td>3</td>
+<td>1</td>
 </tr>
 </tbody>
 </table>
-<h2 id="schematics">Schematics</h2>
-<p><a class="glightbox" href="https://github.com/snaghich/snaghich.github.io/blob/main/WhatsApp%20Image%202025-02-24%20at%2003.03.17_747cceb2.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="My Image" src="https://github.com/snaghich/snaghich.github.io/blob/main/WhatsApp%20Image%202025-02-24%20at%2003.03.17_747cceb2.jpg" /></a>
-Image: HUMAN INTERFACE SCHEMATICS </p>
-<h1 id="about">About</h1>
-<h2 id="microcontroller">Microcontroller</h2>
 <ul>
-<li><strong>ESP32-WROOM-32</strong> (Wi-Fi &amp; Bluetooth, multiple GPIOs, built-in DAC &amp; PWM)</li>
-<li><strong>PIC16F877A</strong> (If PIC is required, supports I2C, SPI, UART)</li>
+<li><code>button_id</code>: Which physical button (mapped to GPIO)</li>
+<li><code>action_code</code>: 0 = Pressed, 1 = Held, 2 = Released, etc.</li>
 </ul>
-<h2 id="buttons">Buttons</h2>
+<hr />
+<h2 id="message-type-20-display-update-microcontroller-him">✅ Message Type 20 – Display Update (Microcontroller → HIM)</h2>
+<p>Display instructions from the main system to OLED (e.g., speed, temp, status)</p>
+<table>
+<thead>
+<tr>
+<th>Byte #</th>
+<th>Variable Name</th>
+<th>Data Type</th>
+<th>Min</th>
+<th>Max</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>message_type</td>
+<td><code>uint8_t</code></td>
+<td>20</td>
+<td>20</td>
+<td>20</td>
+</tr>
+<tr>
+<td>2</td>
+<td>display_code</td>
+<td><code>uint8_t</code></td>
+<td>0</td>
+<td>5</td>
+<td>3</td>
+</tr>
+<tr>
+<td>3</td>
+<td>value</td>
+<td><code>int16_t</code></td>
+<td>-32768</td>
+<td>32767</td>
+<td>1200</td>
+</tr>
+</tbody>
+</table>
 <ul>
-<li><strong>4x Momentary Push Buttons</strong> (e.g., Omron B3F-4055)</li>
+<li><code>display_code</code>: 0 = Temp, 1 = Motor speed, 2 = Status</li>
+<li><code>value</code>: Signed number to display (e.g., temp = 2350 → 23.5°C)</li>
 </ul>
-<h2 id="resistors-capacitors">Resistors &amp; Capacitors</h2>
+<hr />
+<h2 id="message-type-30-motor-command-him-motor-driver">✅ Message Type 30 – Motor Command (HIM → Motor Driver)</h2>
+<p>When user requests a motor action via button press.</p>
+<table>
+<thead>
+<tr>
+<th>Byte #</th>
+<th>Variable Name</th>
+<th>Data Type</th>
+<th>Min</th>
+<th>Max</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>message_type</td>
+<td><code>uint8_t</code></td>
+<td>30</td>
+<td>30</td>
+<td>30</td>
+</tr>
+<tr>
+<td>2</td>
+<td>motor_id</td>
+<td><code>uint8_t</code></td>
+<td>1</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>set_speed</td>
+<td><code>int8_t</code></td>
+<td>-100</td>
+<td>100</td>
+<td>75</td>
+</tr>
+</tbody>
+</table>
 <ul>
-<li><strong>10kΩ Resistors</strong> (Pull-up for button inputs)</li>
-<li><strong>100Ω Resistors</strong> (Series protection for output)</li>
-<li><strong>0.1µF &amp; 10µF Capacitors</strong> (Decoupling &amp; noise reduction)</li>
+<li><code>set_speed</code>: Signed speed command (-100 = full reverse, 100 = full forward)</li>
 </ul>
-<h2 id="dac-if-needed">DAC (if needed)</h2>
+<hr />
+<h2 id="message-type-40-temperature-request-him-microcontroller">✅ Message Type 40 – Temperature Request (HIM → Microcontroller)</h2>
+<p>User requests current temp for display or logic.</p>
+<table>
+<thead>
+<tr>
+<th>Byte #</th>
+<th>Variable Name</th>
+<th>Data Type</th>
+<th>Min</th>
+<th>Max</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>message_type</td>
+<td><code>uint8_t</code></td>
+<td>40</td>
+<td>40</td>
+<td>40</td>
+</tr>
+<tr>
+<td>2</td>
+<td>sensor_id</td>
+<td><code>uint8_t</code></td>
+<td>0</td>
+<td>2</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="message-type-41-temperature-reading-microcontroller-him">✅ Message Type 41 – Temperature Reading (Microcontroller → HIM)</h2>
+<p>Microcontroller returns current temperature reading to HIM for display.</p>
+<table>
+<thead>
+<tr>
+<th>Byte #</th>
+<th>Variable Name</th>
+<th>Data Type</th>
+<th>Min</th>
+<th>Max</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>message_type</td>
+<td><code>uint8_t</code></td>
+<td>41</td>
+<td>41</td>
+<td>41</td>
+</tr>
+<tr>
+<td>2</td>
+<td>sensor_id</td>
+<td><code>uint8_t</code></td>
+<td>0</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3–4</td>
+<td>temp_val</td>
+<td><code>int16_t</code></td>
+<td>-32768</td>
+<td>32767</td>
+<td>2350</td>
+</tr>
+</tbody>
+</table>
 <ul>
-<li><strong>MCP4725</strong> (12-bit I2C DAC for waveform output)</li>
+<li><code>temp_val</code>: 2350 → 23.5°C (×100 scaling)</li>
 </ul>
-<h2 id="voltage-regulator">Voltage Regulator</h2>
+<hr />
+<h3 id="notes">✅ Notes</h3>
 <ul>
-<li><strong>AMS1117-3.3V</strong> (For ESP32 power regulation)</li>
+<li>All messages fit inside bytes 4–61 of the class message format.</li>
+<li>The prefix (0xA5), suffix (0x5A), sender, and receiver bytes are handled in the packet structure and not shown in these tables.</li>
+<li>All HIM messages are parsed using UART receive interrupt handlers and decoded based on <code>message_type</code>.</li>
+<li>Out-of-range values or incorrect lengths are ignored or NACKed.</li>
+<li>Valid messages trigger visual feedback via the onboard LED (<code>LED_DEBUG</code>).</li>
 </ul>
-<h2 id="oscillator-for-pic-if-required">Oscillator (for PIC if required)</h2>
-<ul>
-<li><strong>16MHz Crystal with 22pF Capacitors</strong></li>
-</ul>
-<h2 id="display-optional">Display (optional)</h2>
-<ul>
-<li><strong>SSD1306 OLED</strong> (I2C-based) for waveform visualization)</li>
-</ul>
-<h2 id="power-supply">Power Supply</h2>
-<ul>
-<li><strong>5V DC Power Supply or Battery Module</strong></li>
-</ul>
-<h2 id="connection">Connection:</h2>
-<ul>
-<li>
-<p>name: ESP32-WROOM-32
-    type: Microcontroller
-    datasheet: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
-    pins:</p>
-<ul>
-<li>GPIO0: Boot Mode</li>
-<li>GPIO1: UART TX</li>
-<li>GPIO3: UART RX</li>
-<li>GPIO25: DAC Output A</li>
-<li>GPIO26: DAC Output B</li>
-<li>GPIO21: SDA (I2C for OLED)</li>
-<li>GPIO22: SCL (I2C for OLED)</li>
-</ul>
-</li>
-<li>
-<p>name: MCP4725
-    type: DAC
-    datasheet: https://cdn.sparkfun.com/datasheets/BreakoutBoards/MCP4725.pdf
-    pins:</p>
-<ul>
-<li>VCC: 3.3V</li>
-<li>GND: Ground</li>
-<li>SDA: GPIO21</li>
-<li>SCL: GPIO22</li>
-</ul>
-</li>
-<li>
-<p>name: AMS1117-3.3V
-    type: Voltage Regulator
-    datasheet: https://www.diodes.com/assets/Datasheets/AMS1117.pdf
-    pins:</p>
-<ul>
-<li>VIN: 5V</li>
-<li>VOUT: 3.3V</li>
-<li>GND: Ground</li>
-</ul>
-</li>
-</ul>
-<p>connections:
-  - from: GPIO25 (ESP32)
-    to: VOUT (DAC MCP4725)
-  - from: GPIO21 (ESP32)
-    to: SDA (MCP4725, OLED)
-  - from: GPIO22 (ESP32)
-    to: SCL (MCP4725, OLED)
-```</p>
+<hr />
 
 
 
@@ -865,15 +936,31 @@ Image: HUMAN INTERFACE SCHEMATICS </p>
       
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
+          
+          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Human Interface System" rel="prev">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Human Interface System
+              </div>
+            </div>
+          </a>
+        
         
           
-          <a href="API/" class="md-footer__link md-footer__link--next" aria-label="Next: API – Human Interface Module (HIM)" rel="next">
+          <a href="../Block%20Diagram/" class="md-footer__link md-footer__link--next" aria-label="Next: Block Diagram" rel="next">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                API – Human Interface Module (HIM)
+                Block Diagram
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -917,12 +1004,12 @@ Image: HUMAN INTERFACE SCHEMATICS </p>
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.tabs.sticky", "toc.follow", "navigation.top", "navigation.path", "navigation.indexes", "navigation.prune", "content.action.edit", "navigation.footer"], "search": "assets/javascripts/workers/search.a264c092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "toc.follow", "navigation.top", "navigation.path", "navigation.indexes", "navigation.prune", "content.action.edit", "navigation.footer"], "search": "../assets/javascripts/workers/search.a264c092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.4e0fa4ba.min.js"></script>
+      <script src="../assets/javascripts/bundle.4e0fa4ba.min.js"></script>
       
-        <script src="javascripts/mathjax.js"></script>
+        <script src="../javascripts/mathjax.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
