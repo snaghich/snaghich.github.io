@@ -17,7 +17,7 @@ ESP32-WROOM-S3 (used in schematic)
 
 ---
 
-## ✅ Message Type 10 – Button Press (HIM → Microcontroller or Motor)
+## Button Press (HIM → Microcontroller or Motor)
 
 Button press events are detected on digital GPIO pins and trigger this message to notify the system of user interaction.
 
@@ -32,7 +32,7 @@ Button press events are detected on digital GPIO pins and trigger this message t
 
 ---
 
-## ✅ Message Type 20 – Display Update (Microcontroller → HIM)
+## Display Update (Microcontroller → HIM)
 
 Display instructions from the main system to OLED (e.g., speed, temp, status)
 
@@ -47,7 +47,7 @@ Display instructions from the main system to OLED (e.g., speed, temp, status)
 
 ---
 
-## ✅ Message Type 30 – Motor Command (HIM → Motor Driver)
+##  Motor Command (HIM → Motor Driver)
 
 When user requests a motor action via button press.
 
@@ -61,7 +61,7 @@ When user requests a motor action via button press.
 
 ---
 
-## ✅ Message Type 40 – Temperature Request (HIM → Microcontroller)
+## Temperature Request (HIM → Microcontroller)
 
 User requests current temp for display or logic.
 
@@ -72,7 +72,7 @@ User requests current temp for display or logic.
 
 ---
 
-## ✅ Message Type 41 – Temperature Reading (Microcontroller → HIM)
+## Temperature Reading (Microcontroller → HIM)
 
 Microcontroller returns current temperature reading to HIM for display.
 
@@ -86,7 +86,7 @@ Microcontroller returns current temperature reading to HIM for display.
 
 ---
 
-### ✅ Notes
+### Notes
 
 - All messages fit inside bytes 4–61 of the class message format.
 - The prefix (0xA5), suffix (0x5A), sender, and receiver bytes are handled in the packet structure and not shown in these tables.
